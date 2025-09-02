@@ -12,7 +12,7 @@ async fn button2(something: String) -> ServerFnResult<String> {
 
 #[component]
 pub fn Home() -> Element {
-    let x = 20;
+    let x = 21;
 
     rsx! {
         h1 {"{x}"}
